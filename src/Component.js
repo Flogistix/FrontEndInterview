@@ -18,7 +18,7 @@ const Component = ({ subOptions, handleChange, emailError }) => {
           First Name
         </div>
         <div>
-          <input onChange={event => console.log(event.target.value)}/>
+          <input />
         </div>
       </InputDiv>
       <InputDiv>
@@ -26,7 +26,7 @@ const Component = ({ subOptions, handleChange, emailError }) => {
           Last Name 
         </div>
         <div>
-          <input onChange={event => console.log(event.target.value)}/>
+          <input />
         </div>
       </InputDiv>
       <InputDiv error={emailError}>
@@ -34,7 +34,7 @@ const Component = ({ subOptions, handleChange, emailError }) => {
           Email Address
         </div>
         <div>
-          <input onChange={event => handleChange('email', event.target.value)}/>
+          <input />
         </div>
       </InputDiv>
       <InputDiv>
@@ -42,7 +42,7 @@ const Component = ({ subOptions, handleChange, emailError }) => {
           Phone Number 
         </div>
         <div>
-          <input onChange={event => console.log(event.target.value)}/>
+          <input />
         </div>
       </InputDiv>
       <InputDiv>
